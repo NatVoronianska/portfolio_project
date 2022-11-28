@@ -2,7 +2,6 @@
 font-family: 'Open Sans', sans-serif;*/
 h1 {
   font-family: "Nerko One", cursive;
-  font-size: 96px;
 }
 
 body {
@@ -18,4 +17,9 @@ body {
 .base{
       font-size: 30px;
       font-weight: 700;
+}
+@media (max-width: 750px) {
+      .warning{
+      font-size: 60px;
+}
 }
