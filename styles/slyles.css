@@ -15,3 +15,7 @@ body {
 .warning{
       font-size: 96px;
 }
+.base{
+      font-size: 30px;
+      font-weight: 700;
+}
