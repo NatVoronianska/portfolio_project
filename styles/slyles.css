@@ -27,6 +27,9 @@ body {
       .warning{
       font-size: 60px;
 }
+.container {
+  margin-top: 80px;
+}
 }
 footer .social a {
   margin: 0 20px;
