@@ -1,5 +1,10 @@
 /*font-family: 'Nerko One', cursive;
 font-family: 'Open Sans', sans-serif;*/
+:root {
+  --branding-color: #0B5ED7;
+  --secondary-color: #f9f7fe;
+}
+
 h1 {
   font-family: "Nerko One", cursive;
 }
@@ -22,4 +27,18 @@ body {
       .warning{
       font-size: 60px;
 }
+}
+footer .social a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social a:hover {
+  color: white;
+  background: var(--branding-color);
 }
