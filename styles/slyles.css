@@ -1,7 +1,7 @@
 /*font-family: 'Nerko One', cursive;
 font-family: 'Open Sans', sans-serif;*/
 :root {
-  --branding-color: #0B5ED7;
+  --branding-color: #0b5ed7;
   --secondary-color: #f9f7fe;
 }
 
@@ -11,30 +11,32 @@ h1 {
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-image: url("/img/jason-leung-Xaanw0s0pMk-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .container {
   margin-top: 160px;
 }
 
-.warning{
-      font-size: 96px;
+.warning {
+  font-size: 96px;
 }
-.base{
-      font-size: 30px;
-      font-weight: 700;
+.base {
+  font-size: 30px;
+  font-weight: 700;
 }
 @media (max-width: 750px) {
-      .warning{
-      font-size: 60px;
-}
-.container {
-  margin-top: 80px;
-}
+  .warning {
+    font-size: 60px;
+  }
+  .container {
+    margin-top: 80px;
+  }
 }
 footer .social a {
   margin: 0 20px;
   color: var(--branding-color);
-  background: var(--secondary-color);
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
