@@ -18,7 +18,9 @@ body {
 .container {
   margin-top: 160px;
 }
-
+.nav-item{
+  color: #f9f7fe;
+}
 .warning {
   font-size: 96px;
 }
