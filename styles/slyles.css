@@ -1,7 +1,7 @@
 /*font-family: 'Nerko One', cursive;
 font-family: 'Open Sans', sans-serif;*/
 :root {
-  --branding-color: #0b5ed7;
+  --branding-color: #00677A;
   --secondary-color: #f9f7fe;
 }
 
@@ -34,12 +34,13 @@ body {
     margin-top: 80px;
   }
 }
+
 footer .social a {
   margin: 0 20px;
   color: var(--branding-color);
-  padding: 10px 14px;
+  padding: 10px 20px;
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 28px;
   transition: all 100ms ease-in-out;
 }
 
